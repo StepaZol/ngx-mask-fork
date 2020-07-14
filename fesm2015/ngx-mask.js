@@ -252,6 +252,7 @@ class MaskApplierService {
         if (inputValue === undefined || inputValue === null || maskExpression === undefined) {
             return '';
         }
+        console.log(inputValue);
         /** @type {?} */
         let cursor = 0;
         /** @type {?} */

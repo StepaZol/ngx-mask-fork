@@ -484,6 +484,7 @@
             if (inputValue === undefined || inputValue === null || maskExpression === undefined) {
                 return '';
             }
+            console.log(inputValue);
             /** @type {?} */
             var cursor = 0;
             /** @type {?} */
